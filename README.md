@@ -1,6 +1,6 @@
 # Graduation-project
 
-毕业设计项目的硬件资料。
+毕业设计项目的硬件资料与申报材料。
 
 ## 项目列表
 
@@ -8,6 +8,7 @@
 |---|---|---|
 | [`hardware/stm32-environment-monitor`](hardware/stm32-environment-monitor) | **基于 STM32 的多功能环境智能监控系统**：温湿度、光照、RTC、OLED、按键、LED、蜂鸣器、12V 灯带控制，12V 输入板载降压 | V1.2，已提交嘉立创打样 |
 | [`hardware/parking-bluepill`](hardware/parking-bluepill) | **4 车位检测板**：Blue Pill 核心板 + 4 个红外反射传感器 + OLED（KiCad 工程） | `main` 为初版；**更新版在分支 [`claude/blissful-cannon-at318t`](../../tree/claude/blissful-cannon-at318t)**（尚未合并） |
+| [`smart-agriculture`](smart-agriculture) | **禾智云枢：多模态 AI 视觉 + 农业智能体的智慧农业大棚沙盘**（800×400mm，STM32F4 + 4G/MQTT/OneNET）：创新创业训练计划申报书、问题—对策图、系统原理图、搭建工程蓝图、三维展示 | 方案设计阶段 |
 
 ## 环境监控板（V1.2）简介
 
@@ -35,7 +36,16 @@
 
 详细说明见该分支的 `hardware/parking-bluepill/CHANGES.md`。
 
+## 禾智云枢（智慧农业）简介
+
+- 痛点：整体方案成本高、单点设备数据孤立、长势靠人工巡检、交互门槛高、AI 直控不安全、实训缺载体。
+- 方案：STM32F4 + EC800K 4G/MQTT + OneNET 底座；AgriLeaf-Det / AgriGrow-Seg / AgriFusion / AgriAgent 四个 AI 模块；“建议—审批—执行”分级控制，断网时本地规则兜底。
+- 详见 [smart-agriculture/README.md](smart-agriculture/README.md)。
+
+![系统原理图](smart-agriculture/docs/系统原理图.png)
+
 ## 工具
 
 - 环境监控板：嘉立创 EDA 专业版（`.epro`）
 - 车位检测板：KiCad
+- 智慧农业沙盘：STM32CubeMX、OneNET 云平台
