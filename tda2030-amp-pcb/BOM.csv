@@ -1,0 +1,21 @@
+﻿位号,参数,封装(建议),备注
+U1,TDA2030,TO-220-5_P3.4x3.7mm_StaggerOdd_Vertical,1=+IN 2=-IN 3=GND 4=OUT 5=VCC
+RP,22k,Potentiometer_Alps_RK09K_Single_Vertical,音量电位器 1=Vin 2=滑动端 3=GND
+R1,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,VCC->偏置点
+R2,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,偏置点->GND
+R3,100k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,输入串联
+R4,4.7k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,反馈对地
+R5,150k,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,反馈 OUT->2脚
+R6,1R,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,Zobel 电阻
+C1,1uF/50V,CP_Radial_D5.0mm_P2.00mm,输入耦合 +接N1
+C2,22uF/50V,CP_Radial_D5.0mm_P2.00mm,偏置滤波 +接N2
+C3,22uF/50V,CP_Radial_D5.0mm_P2.00mm,反馈对地 +接N3
+C4,2200uF/50V,CP_Radial_D18.0mm_P7.50mm,输出耦合 +接OUT (封装按实物改)
+C5,0.1uF/50V,C_Disc_D5.0mm_W2.5mm_P5.00mm,Zobel 电容
+C6,100uF/50V,CP_Radial_D8.0mm_P3.50mm,电源去耦 +接VCC
+C7,0.1uF/50V,C_Disc_D5.0mm_W2.5mm_P5.00mm,电源高频去耦
+D1,1N4007,D_DO-41_SOD81_P10.16mm_Horizontal,阳极OUT 阴极VCC
+D2,1N4007,D_DO-41_SOD81_P10.16mm_Horizontal,阳极GND 阴极OUT
+J1,IN,PinHeader_1x02_P2.54mm_Vertical,1=Vin 2=GND
+J2,PWR,PinHeader_1x02_P2.54mm_Vertical,1=+9V 2=GND
+J3,SPK,PinHeader_1x02_P2.54mm_Vertical,1=SPK+ 2=GND
