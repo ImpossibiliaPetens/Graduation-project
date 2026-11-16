@@ -40,7 +40,7 @@
 
 - 痛点：整体方案成本高、单点设备数据孤立、长势靠人工巡检、交互门槛高、AI 直控不安全、实训缺载体。
 - 方案：STM32F4 + EC800K 4G/MQTT + OneNET 底座；AgriLeaf-Det / AgriGrow-Seg / AgriFusion / AgriAgent 四个 AI 模块；“建议—审批—执行”分级控制，断网时本地规则兜底。
-- 详见 [smart-agriculture/README.md](smart-agriculture/README.md)。
+- 材料：[申报书](smart-agriculture/项目申报书_公开版.docx)、[商业计划书](smart-agriculture/商业计划书.docx)；详见 [smart-agriculture/README.md](smart-agriculture/README.md)。
 
 ![系统原理图](smart-agriculture/docs/系统原理图.png)
 
