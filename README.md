@@ -7,6 +7,7 @@
 | 目录 | 说明 | 状态 |
 |---|---|---|
 | [`hardware/stm32-environment-monitor`](hardware/stm32-environment-monitor) | **基于 STM32 的多功能环境智能监控系统**：温湿度、光照、RTC、OLED、按键、LED、蜂鸣器、12V 灯带控制，12V 输入板载降压 | V1.2，已提交嘉立创打样 |
+| [`hardware/garden-watering-system`](hardware/garden-watering-system) | **智能花园浇水系统**：STM32F103C8T6 开发板 + BH1750 光照 + SHT30 温湿度 + 土壤湿度 + OLED + 4 按键，白天且土壤干才浇水（水泵/电磁阀用 LED 模拟），嘉立创 EDA 工程、Gerber、BOM、物资清单 | 硬件完成，已生成打板数据；程序待写 |
 | [`hardware/parking-bluepill`](hardware/parking-bluepill) | **4 车位检测板**：Blue Pill 核心板 + 4 个红外反射传感器 + OLED（KiCad 工程） | `main` 为初版；**更新版在分支 [`claude/blissful-cannon-at318t`](../../tree/claude/blissful-cannon-at318t)**（尚未合并） |
 | [`smart-agriculture`](smart-agriculture) | **禾智云枢：多模态 AI 视觉 + 农业智能体的智慧农业大棚沙盘**（800×400mm，STM32F4 + 4G/MQTT/OneNET）：创新创业训练计划申报书、问题—对策图、系统原理图、搭建工程蓝图、三维展示 | 方案设计阶段 |
 
