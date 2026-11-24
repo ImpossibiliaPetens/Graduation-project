@@ -12,6 +12,7 @@ LED0603-RD_RED ! LED0603-RD_RED ! '{Value}' ; U5 U6
 R0603 ! R0603 ! '1kΩ' ; R2 R3 
 R0603 ! R0603 ! '330Ω' ; R1 R4 
 R0603 ! R0603 ! '4.7kΩ' ; R5 R6 
+R2512 ! R2512 ! '18Ω' ; R7 
 SMA_L4.2-W2.6-LS5.0-RD_1 ! SMA_L4.2-W2.6-LS5.0-RD_1 ! '{Value}' ; D1 
 ,
         SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR ! SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR ! '{Value}' ,
@@ -23,7 +24,7 @@ WSOF-6_L2.6-W1.6-P0.50-TL-EP ! WSOF-6_L2.6-W1.6-P0.50-TL-EP ! '{Value}' ; U8
 $A_PROPERTIES
 $NETS
 '+3V3' ; C1.1 H1.1 R5.2 R6.2 U1.20 U8.1 U8.5 U9.5 U9.6 
-'+5V' ; D1.1 U1.18 U2.1 U3.2 U7.1 
+'+5V' ; D1.1 R7.1 U1.18 U3.2 U7.1 
 '$1N60' ; U1.26 
 'BZ_B' ; Q2.1 R3.2 
 'BZ_N' ; Q2.3 U7.2 
@@ -37,6 +38,7 @@ $NETS
 'LED2_A' ; R4.2 U6.1 
 'PUMP_LED' ; R1.1 R2.1 U1.29 
 'PUMP_N' ; D1.2 Q1.3 U2.2 
+'PUMP_P' ; R7.2 U2.1 
 'SOIL_ADC' ; H1.2 U1.25 
 'VALVE_LED' ; R4.1 U1.30 
 'WATER_LEVEL' ; U1.32 U4.1 
