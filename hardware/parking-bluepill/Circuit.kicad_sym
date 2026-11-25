@@ -133,6 +133,6 @@
 (symbol "SW_0_1" (rectangle (start 0 2.54) (end 15.24 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
 (symbol "SW_1_1"
 (pin passive line (at -5.08 -0.00 0) (length 5.08) (name "1" (effects (font (size 1 1)))) (number "1" (effects (font (size 1 1)))))
-(pin passive line (at -5.08 -2.54 0) (length 5.08) (name "2" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))
+(pin passive line (at -5.08 -2.54 0) (length 5.08) (name "4" (effects (font (size 1 1)))) (number "4" (effects (font (size 1 1)))))
 ))
 )
